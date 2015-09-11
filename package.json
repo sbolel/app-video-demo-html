@@ -1,0 +1,21 @@
+{
+  "name": "app-video-demo",
+  "version": "1.0.0",
+  "description": "HTML5 template for displaying video demos",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sinan Bolel <sinanbolel@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sbolel/app-video-demo-html.git"
+  },
+  "homepage": "https://github.com/sbolel/app-video-demo-html",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

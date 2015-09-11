@@ -1,7 +1,36 @@
 <html>
+
+<head>
+  <title>App Demo</title>
+  <meta name="description" content="HTML5 template to display an app recording inside an iPhone 6">
+  <meta name="author" content="Sinan Bolel <sinanbolel@gmail.com>">
+  <style>
+    body {
+      min-height: 100%;
+      margin: 0;
+    }
+    #container {
+      background-image: url(background.jpg);
+      width: 433px;
+      height: 890px;
+      background-size: 100%;
+      margin: auto;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    video {
+      margin-top: 119px;
+      margin-left: 28px;
+      z-index: 100000;
+    }
+  </style>
+</head>
+
 <body>
-<div id="container" style="background-image: url(background.jpg); width: 433px; height: 890px;background-size: 100%;">
-    <video width="375" height="667" name="Demo" src="sample-demo.mov" autoplay style="margin-top: 119px;margin-left: 28px;z-index: 100000;"></video>
-</div>
+  <div id="container">
+    <video autoplay width="375" height="667" name="Demo Video" src="sample-demo.mov"></video>
+  </div>
 </body>
+
 </html>

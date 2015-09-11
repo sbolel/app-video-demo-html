@@ -12,8 +12,6 @@ This is a website template to display an app recording inside an iPhone 6.
 
 4. `grunt` - Serve the website in Google Chrome using Grunt and see the demo
 
-#### Overview
+#### Demo
 
-The video is shown inside of the following background image:
-
-![background](./www/background.jpg)
+![demo](./doc/app-video-demo.gif)
